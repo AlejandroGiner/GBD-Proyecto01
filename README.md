@@ -11,7 +11,7 @@ MySQL Community Installer: https://dev.mysql.com/downloads/installer/
 
 Descarga desde la página 
 Entramos en MySQL y nos desplazamos por la parte de la navegación en busca de las descargas.
-![](CAPS\INSTALAR_MYSQL\1.png)
+![](CAPS/INSTALAR_MYSQL/1.png)
 
 Una vez nos ha rediriguido a las descargas encontraremos varios links por lo que cogemos el de Community.
 ![](CAPS\INSTALAR_MYSQL\2.png)
