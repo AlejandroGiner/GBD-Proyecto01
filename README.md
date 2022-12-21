@@ -14,48 +14,49 @@ Entramos en MySQL y nos desplazamos por la parte de la navegación en busca de l
 ![](CAPS/INSTALAR_MYSQL/1.png)
 
 Una vez nos ha rediriguido a las descargas encontraremos varios links por lo que cogemos el de Community.
-![](CAPS\INSTALAR_MYSQL\2.png)
+![](CAPS/INSTALAR_MYSQL/2.png)
 
 Ahora que hemos escogido la versión podremos buscar la que se adapte a lo que buscamos en nuestro caso el instalador para Windows.
-![](CAPS\INSTALAR_MYSQL\3.png)
+![](CAPS/INSTALAR_MYSQL/3.png)
 
 Seleccionamos nuestro sistema operativo, en este caso el primero
-![](CAPS\INSTALAR_MYSQL\4.png)
+![](CAPS/INSTALAR_MYSQL/4.png)
 
 En esta pestaña nos pide o realizar un login o registrarnos de vuelta, en nuestro caso lo que hacemos es saltarnos esas opciones dandole a no gracias. 
-![](CAPS\INSTALAR_MYSQL\5.png)
+![](CAPS/INSTALAR_MYSQL/5.png)
 
 Nos empezará a descargar.
-![](..\CAPS\INSTALAR_MYSQL\6.png)
+![](CAPS/INSTALAR_MYSQL/6.png)
 
 Le damos instalar y se nos abrirá el instalador.
-![](..\CAPS\INSTALAR_MYSQL\7.png)
+![](CAPS/INSTALAR_MYSQL/7.png)
 
 En esta ventana lo que nos está advirtiendo que nos avise cada vez que se haya actualizado el programa se decidió optar por que no lo hiciera.
-![](..\CAPS\INSTALAR_MYSQL\8.png)
+![](CAPS/INSTALAR_MYSQL/8.png)
+
 Seleccionamos el tipo de instalación a 
-![](\CAPS\INSTALAR_MYSQL\9.png)
-![](\CAPS\INSTALAR_MYSQL\10.png)
-![](\CAPS\INSTALAR_MYSQL\11.png)
-![](\CAPS\INSTALAR_MYSQL\12.png)
-![](\CAPS\INSTALAR_MYSQL\13.png)
-![](\CAPS\INSTALAR_MYSQL\14.png)
-![](\CAPS\INSTALAR_MYSQL\15.png)
-![](\CAPS\INSTALAR_MYSQL\16.png)
-![](\CAPS\INSTALAR_MYSQL\17.png)
-![](\CAPS\INSTALAR_MYSQL\18.png)
-![](\CAPS\INSTALAR_MYSQL\19.png)
-![](\CAPS\INSTALAR_MYSQL\20.png)
-![](\CAPS\INSTALAR_MYSQL\21.png)
-![](\CAPS\INSTALAR_MYSQL\22.png)
-![](\CAPS\INSTALAR_MYSQL\23.png)
-![](\CAPS\INSTALAR_MYSQL\24.png)
-![](\CAPS\INSTALAR_MYSQL\25.png)
-![](\CAPS\INSTALAR_MYSQL\26.png)
-![](\CAPS\INSTALAR_MYSQL\27.png)
-![](\CAPS\INSTALAR_MYSQL\28.png)
-![](\CAPS\INSTALAR_MYSQL\29.png)
-![](\CAPS\INSTALAR_MYSQL\30.png)
+![](CAPS/INSTALAR_MYSQL/9.png)
+![](CAPS/INSTALAR_MYSQL/10.png)
+![](CAPS/INSTALAR_MYSQL/11.png)
+![](CAPS/INSTALAR_MYSQL/12.png)
+![](CAPS/INSTALAR_MYSQL/13.png)
+![](CAPS/INSTALAR_MYSQL/14.png)
+![](CAPS/INSTALAR_MYSQL/15.png)
+![](CAPS/INSTALAR_MYSQL/16.png)
+![](CAPS/INSTALAR_MYSQL/17.png)
+![](CAPS/INSTALAR_MYSQL/18.png)
+![](CAPS/INSTALAR_MYSQL/19.png)
+![](CAPS/INSTALAR_MYSQL/20.png)
+![](CAPS/INSTALAR_MYSQL/21.png)
+![](CAPS/INSTALAR_MYSQL/22.png)
+![](CAPS/INSTALAR_MYSQL/23.png)
+![](CAPS/INSTALAR_MYSQL/24.png)
+![](CAPS/INSTALAR_MYSQL/25.png)
+![](CAPS/INSTALAR_MYSQL/26.png)
+![](CAPS/INSTALAR_MYSQL/27.png)
+![](CAPS/INSTALAR_MYSQL/28.png)
+![](CAPS/INSTALAR_MYSQL/29.png)
+![](CAPS/INSTALAR_MYSQL/30.png)
 
 * Contraseña de root 
 
