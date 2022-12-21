@@ -41,8 +41,10 @@ Le damos instalar y se nos abrirá el instalador.
 En esta ventana lo que nos está advirtiendo que nos avise cada vez que se haya actualizado el programa se decidió optar por que no lo hiciera.
 ![](CAPS/INSTALAR_MYSQL/8.png)
 
-Seleccionamos el tipo de instalación a 
+Seleccionamos Full para que nos instale todo ya que de esta forma intalamos tanto el servidor coomo la parte que hará de router y gestionará las conexiones al servidor y mmás herramientas que igual no usaremos pero no está mal contar con ellas y no tener que reinstalar.
+
 ![](CAPS/INSTALAR_MYSQL/9.png)
+
 ![](CAPS/INSTALAR_MYSQL/10.png)
 ![](CAPS/INSTALAR_MYSQL/11.png)
 ![](CAPS/INSTALAR_MYSQL/12.png)
