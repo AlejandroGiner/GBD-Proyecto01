@@ -67,15 +67,15 @@ Seleccionamos el tipo de instalación a
 Al root le hemos puesto durante la instalación la contraseña de 12345a para 
 tener eso cubierto ya que por defecto el usuario root su contraseña por defecto está vacía por lo que le asignamos una para evittar que un usuario externo a la base de datos pueda modificarla o entrar.
 
-![](CAPS/INSTALAR_MYSQL/17.png)
+![](CAPS/INSTALAR_MYSQL/USUARIOS Y ROOT/17.png)
 
 * Como se ha creado la base de datos 
 
 
 * Usuarios y persmisos (nombre, contraseña y cómo se ha creado) 
 
-![](CAPS/INSTALAR_MYSQL/18.png)
-![](CAPS/INSTALAR_MYSQL/19.png)
+![](CAPS/INSTALAR_MYSQL/USUARIOS Y ROOT/18.png)
+![](CAPS/INSTALAR_MYSQL/USUARIOS Y ROOT/19.png)
 
 (METER IMÁGENES) 
 
