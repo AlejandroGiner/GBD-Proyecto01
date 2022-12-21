@@ -11,19 +11,19 @@ MySQL Community Installer: https://dev.mysql.com/downloads/installer/
 
 Descarga desde la página 
 Entramos en MySQL y nos desplazamos por la parte de la navegación en busca de las descargas.
-! [] (..\CAPS\INSTALAR_MYSQL\1.png)
+![](CAPS\INSTALAR_MYSQL\1.png)
 
 Una vez nos ha rediriguido a las descargas encontraremos varios links por lo que cogemos el de Community.
-! [] (..\CAPS\INSTALAR_MYSQL\2.png)
+![](CAPS\INSTALAR_MYSQL\2.png)
 
 Ahora que hemos escogido la versión podremos buscar la que se adapte a lo que buscamos en nuestro caso el instalador para Windows.
-![](..\CAPS\INSTALAR_MYSQL\3.png)
+![](CAPS\INSTALAR_MYSQL\3.png)
 
 Seleccionamos nuestro sistema operativo, en este caso el primero
-![](..\CAPS\INSTALAR_MYSQL\4.png)
+![](CAPS\INSTALAR_MYSQL\4.png)
 
 En esta pestaña nos pide o realizar un login o registrarnos de vuelta, en nuestro caso lo que hacemos es saltarnos esas opciones dandole a no gracias. 
-![](..\CAPS\INSTALAR_MYSQL\5.png)
+![](CAPS\INSTALAR_MYSQL\5.png)
 
 Nos empezará a descargar.
 ![](..\CAPS\INSTALAR_MYSQL\6.png)
