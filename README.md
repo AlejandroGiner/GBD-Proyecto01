@@ -92,7 +92,9 @@ tener eso cubierto ya que por defecto el usuario root su contraseña por defecto
 ## CONEXIÓN
 
 * Pantallazo de datagrip  
-
+![](CAPS/CONEXION/1.png)  
+![](CAPS/CONEXION/2.png)  
+![](CAPS/CONEXION/3.png)
 * Explicación 
 
 ## CONCLUSIONES
