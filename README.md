@@ -99,11 +99,24 @@ En esta ventana también podremos ver un archivo llamado log el cual nos indica 
 Aquí nos muestran los productos que seleccionamos cuando empezamos la instalación a full, nos muestra el estado de estos.
 
 ![](CAPS/INSTALAR_MYSQL/24.png)
+
+
+
 ![](CAPS/INSTALAR_MYSQL/25.png)
+
+
 ![](CAPS/INSTALAR_MYSQL/26.png)
+
+
 ![](CAPS/INSTALAR_MYSQL/27.png)
+
+
 ![](CAPS/INSTALAR_MYSQL/28.png)
+
+
 ![](CAPS/INSTALAR_MYSQL/29.png)
+
+
 ![](CAPS/INSTALAR_MYSQL/30.png)
 
 * Contraseña de root 
