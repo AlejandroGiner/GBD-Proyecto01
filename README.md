@@ -147,8 +147,24 @@ tener eso cubierto ya que por defecto el usuario root su contraseña por defecto
 ## CONEXIÓN
 
 * Pantallazo de datagrip  
+Una vez hemos terminado con la instalación y configuración del servidor de MySQL y realizado el diseño de las base de datos, haremos la conexión entre MySQL y DataGrip.
+Entramos en DataGrip y añadimos una nueva conexión con MySQL, en este caso haremos dos conexiones puesto que tenemos dos usuarios.
+Una como root con la que luego aislaremos el otro usuario para que solo acceda a la base de datos de tenis.
+Y el segundo usuario que es administrador.
 ![](CAPS/CONEXION/1.png)  
+En la primera conexión se hará con el root de tener bien puestos:
+Nos tendremos que asegurar.
+1.  El user, tendrá que ser root.
+2.  El puerto, que en nuestro caso es el 3306.
+3.  La contraseña del root será la que le pusimos durante la instalación.
+
 ![](CAPS/CONEXION/2.png)  
+En la segunda tendremos que hacer la conexión con el usuario que va a minupular la base de datos.
+Y contendrá los siguientes datos.
+1.  El user, tendrá que ser el usuario en este caso Simon.
+2.  El puerto, que en nuestro caso es el 3306.
+3.  La contraseña del usuario será la que le pusimos durante la instalación.
+
 ![](CAPS/CONEXION/3.png)
 * Explicación 
 
