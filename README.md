@@ -6,10 +6,12 @@
 * Instalar MySQL 
 
 Primero debatios que herramienta de las disponibles era mejor para el trabajo que tenemos que realizar nosotros.
+
 En nuestro caso se ha decidido emplear MySQL HeatWave ya que es gratuito.
 MySQL Community Installer: https://dev.mysql.com/downloads/installer/ 
 
 Descarga desde la página 
+
 Entramos en MySQL y nos desplazamos por la parte de la navegación en busca de las descargas.
 
 ![](CAPS/INSTALAR_MYSQL/1.png)
@@ -39,6 +41,7 @@ Le damos instalar y se nos abrirá el instalador.
 ![](CAPS/INSTALAR_MYSQL/7.png)
 
 En esta ventana lo que nos está advirtiendo que nos avise cada vez que se haya actualizado el programa se decidió optar por que no lo hiciera.
+
 ![](CAPS/INSTALAR_MYSQL/8.png)
 
 Seleccionamos Full para que nos instale todo ya que de esta forma intalamos tanto el servidor coomo la parte que hará de router y gestionará las conexiones al servidor y mmás herramientas que igual no usaremos pero no está mal contar con ellas y no tener que reinstalar.
@@ -92,6 +95,7 @@ Esta ventana nos muestra que proceso va a hacer y aplicar al servidor anteriorme
 ![](CAPS/INSTALAR_MYSQL/22.png)
 
 Después se mira que está correcto y con esto tenemos los usuarios cubiertos y parte de la configuración de este nuestro servidor.
+
 En esta ventana también podremos ver un archivo llamado log el cual nos indica con más detalle el proceso que ha seguido.
 
 ![](CAPS/INSTALAR_MYSQL/23.png)
@@ -121,8 +125,7 @@ Aquí nos muestran los productos que seleccionamos cuando empezamos la instalaci
 
 * Contraseña de root 
 
-Al root le hemos puesto durante la instalación la contraseña de 12345a para 
-tener eso cubierto ya que por defecto el usuario root su contraseña por defecto está vacía por lo que le asignamos una para evittar que un usuario externo a la base de datos pueda modificarla o entrar.
+Al root le hemos puesto durante la instalación la contraseña de 12345a para tener eso cubierto ya que por defecto el usuario root su contraseña por defecto está vacía por lo que le asignamos una para evittar que un usuario externo a la base de datos pueda modificarla o entrar.
 
 ![](CAPS/USUARIOS_Y_ROOT/17.png)
 
@@ -132,6 +135,7 @@ tener eso cubierto ya que por defecto el usuario root su contraseña por defecto
 * Usuarios y persmisos (nombre, contraseña y cómo se ha creado) 
 
 ![](CAPS/USUARIOS_Y_ROOT/18.png)
+
 ![](CAPS/USUARIOS_Y_ROOT/19.png)
 
 (METER IMÁGENES) 
@@ -147,25 +151,36 @@ tener eso cubierto ya que por defecto el usuario root su contraseña por defecto
 ## CONEXIÓN
 
 * Pantallazo de datagrip  
+
 Una vez hemos terminado con la instalación y configuración del servidor de MySQL y realizado el diseño de las base de datos, haremos la conexión entre MySQL y DataGrip.
+
 Entramos en DataGrip y añadimos una nueva conexión con MySQL, en este caso haremos dos conexiones puesto que tenemos dos usuarios.
+
 Una como root con la que luego aislaremos el otro usuario para que solo acceda a la base de datos de tenis.
 Y el segundo usuario que es administrador.
+
 ![](CAPS/CONEXION/1.png)  
+
 En la primera conexión se hará con el root de tener bien puestos:
+
 Nos tendremos que asegurar.
+
 1.  El user, tendrá que ser root.
 2.  El puerto, que en nuestro caso es el 3306.
 3.  La contraseña del root será la que le pusimos durante la instalación.
 
 ![](CAPS/CONEXION/2.png)  
+
 En la segunda tendremos que hacer la conexión con el usuario que va a minupular la base de datos.
+
 Y contendrá los siguientes datos.
+
 1.  El user, tendrá que ser el usuario en este caso Simon.
 2.  El puerto, que en nuestro caso es el 3306.
 3.  La contraseña del usuario será la que le pusimos durante la instalación.
 
 ![](CAPS/CONEXION/3.png)
+
 * Explicación 
 
 ## CONCLUSIONES
