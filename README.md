@@ -104,22 +104,31 @@ Aquí nos muestran los productos que seleccionamos cuando empezamos la instalaci
 
 ![](CAPS/INSTALAR_MYSQL/24.png)
 
+Tenemos que desmarcar la casilla del boostrap.
 
+Nuestro puerto será: 3306
+
+Luego dependiendo de la conexión podremos hacer que directamente con el puerto solo pueda leer y no modificar datos.
 
 ![](CAPS/INSTALAR_MYSQL/25.png)
 
+En esta parte vemos que ya tenemos configurados tanto el server como el
 
 ![](CAPS/INSTALAR_MYSQL/26.png)
 
+Ahora tenemos que realizar una conexión para ello seleccionamos nuestro servidor y nos conectamos con el usuario root.
 
 ![](CAPS/INSTALAR_MYSQL/27.png)
 
+Despúes se hace un chequeo de todo para asegurar que no hay fallos.
 
 ![](CAPS/INSTALAR_MYSQL/28.png)
 
+Otra vez vemos que todo está correcto y con esto terminamos la instalación.
 
 ![](CAPS/INSTALAR_MYSQL/29.png)
 
+Aquí podemos hacer que se inicie el servidor cada vez que iniciemos el equipo nosotro lo hemos desactivado puesto que lo haremos de forma local.
 
 ![](CAPS/INSTALAR_MYSQL/30.png)
 
@@ -130,6 +139,7 @@ Al root le hemos puesto durante la instalación la contraseña de 12345a para te
 ![](CAPS/USUARIOS_Y_ROOT/17.png)
 
 * Como se ha creado la base de datos 
+
 
 
 * Usuarios y persmisos (nombre, contraseña y cómo se ha creado) 
@@ -182,6 +192,8 @@ Y contendrá los siguientes datos.
 ![](CAPS/CONEXION/3.png)
 
 * Explicación 
+
+
 
 ## CONCLUSIONES
 
