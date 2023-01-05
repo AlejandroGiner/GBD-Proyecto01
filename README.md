@@ -1,5 +1,26 @@
 # GBD-Proyecto01
 # PROYECTO GBD - GRUPO 4 - Alejandro Ginés, Daniel Trapote y Simon Villarino
+# ÍNTRODUCCIÓN
+Este readme contiene la memoria sobre el trabajo asignado.
+Nos tocó ser el grupo 7 y hacer una base de datos que contenga la información sobre el último Torneo de Roland Garrós y sus participantes.
+
+Se ha divido el trabajo de la siguiente forma:
+
+1. INSTALACIÓN DE MySQL
+
+En este punto se desarrolla la instalación del servidor de MySQL y la configuración de este y los usuaruios de esta.
+
+2. DISEÑO DE LA BASE DE DATOS
+
+Aquí realizamos el diseño de las tablas de nuestra base de datos y como relacionamos los datos de esta.
+
+3. CNEXIÓN DATAGRIP CON LA BASE DE DATOS DE MySQL
+
+El último punto es sobre la como realizamos la conexión a la base de datos y como asignamos a los usuarios los permisos.
+
+4. CONCLUSIONES
+
+Desarrollamos sobre como hemos realizado el trabajo.
 
 ## INSTALACIÓN
 
@@ -10,7 +31,7 @@ Primero debatios que herramienta de las disponibles era mejor para el trabajo qu
 En nuestro caso se ha decidido emplear MySQL HeatWave ya que es gratuito.
 MySQL Community Installer: https://dev.mysql.com/downloads/installer/ 
 
-Descarga desde la página 
+* Descarga desde la página 
 
 Entramos en MySQL y nos desplazamos por la parte de la navegación en busca de las descargas.
 
