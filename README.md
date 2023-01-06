@@ -201,57 +201,76 @@ Es el apellido del jugador.
 
 * Id_género
 
-Es una clave que viene de la tabla géneros en la cual
+Es una clave que viene de la tabla géneros en la cual relacionamos al participante con uno de los géreros, para saber a que parte del torneo participa.
 
 * Fecha_nacimiento
 
+La fecha de nacimiento del participante.
 
 * Id_país  
 
+Es una clave que viene de la tabla países y nos indica el país del participante.
 
 2. PARTIDOS
 
 * Id_partido
 
+Asignamos un identificador al partido puesto que se juegan un total de 96 partidos y cada partido es único, por lo que le designamos como clave principal 
 
-* Id_jugador1
+* Id_jugador1 y Id_jugador2
 
-
-* Id_jugador2
-
+En cada partido tendremos solo dos jugadores y para relacionar los sets le asignamos a cada uno una de estas id para diferenciarlos.
 
 * Nº_sección
 
+Es el número de la sección o momento del torneo, hay 9 secciones que van desde la 1 hasta la 8 y la sección 0 es la final.
+
 * Nº_ronda
 
+Cada sección se divide en rondas, de las secciones de la 1 a la 8 se dividen en cuatro rondas, pero en la sección 0 se divide en tres secciones siendo cuartos, semifinales y finales.
+
 * Fecha
+
+Es la fecha en la que se juega el partido.
 
 3. PUNTUACIONES
 
 * Id_partido
 
+Es el número de partido del 1 a 96.
+
 * Nº_set
 
-* Punt_jugador1
+Hace referencia al set que se está jugando, este puede ir desde 1 a 5
 
-* Punt_jugador2
+* Punt_jugador1 y Punt_jugador2
+
+Dividimos los dos jugadores del set para almacenar cual es la puntuación de este set y relacionarla con el nº del set.
 
 4. PAISES
 
 * Id_país
 
+Almcenará un número por país que no se repite.
+
 * Nombre 
+
+Es el nombre del país.
 
 5. GÉNEROS
 
 * Id_género
 
+Se asigna un identificador al género para relacionar este con otras tablas.
+
 * Nombre 
 
+Almacena el nombre del gérnero.
 
 * Como se relacionan 
 
 JUGADORES
+
 
 
 PARTIDOS
