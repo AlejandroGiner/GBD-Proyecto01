@@ -44,4 +44,5 @@ CREATE TABLE puntuaciones(
     punt_jugador1   NUMERIC(4)      CHECK(punt_jugador1 > 0),
     punt_jugador2   NUMERIC(4)      CHECK(punt_jugador2 > 0),
     CONSTRAINT puntuaciones_fk1 FOREIGN KEY (id_partido) REFERENCES partidos(id_partido)
+    CONSTRAINT puntuaciones_pk PRIMARY KEY (id_partido, n_set) REFERENCES partidos(id_partido)
 );
