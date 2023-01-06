@@ -175,6 +175,7 @@ Al root le hemos puesto durante la instalación la contraseña de 12345a para te
 * Tablas 
 
 Se decidió crear cinco tablas para contener la información del torneo.
+![](CAPS/TABLAS/tablatenis_Mesa%20de%20trabajo%201-03.jpg)
 Las cuales son :
 1. JUGADORES
 2. PARTIDOS
@@ -188,16 +189,19 @@ Las cuales son :
 
 * Id_jugador
 
+Es un identificador que se asigna al jugador para relacionar los datos, será la clave primaria porque es un id que se asocia a un solo jugador y no se repite.
 
 * Nombre
 
-El nombre del participante del torneo 
+El nombre del participante del torneo.
 
 * Apellidos
 
+Es el apellido del jugador.
 
 * Id_género
 
+Es una clave que viene de la tabla géneros en la cual
 
 * Fecha_nacimiento
 
@@ -251,6 +255,7 @@ JUGADORES
 
 
 PARTIDOS
+
 
 PUNTUACIONES
 
