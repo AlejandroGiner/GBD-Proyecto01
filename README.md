@@ -178,35 +178,81 @@ Se decidió crear cinco tablas para contener la información del torneo.
 Las cuales son :
 1. JUGADORES
 2. PARTIDOS
-3. SETS
-4. RONDAS
-5. SECCIONES
-6. TORNEOS
-7. PAISES
-
+3. PUNTUACIONES
+4. PAISES
+5. GÉNEROS
 
 * Que se guarda en cada una 
 
 1. JUGADORES
 
-En jugadores almacenaremos como clave pirmaria un número fijo que asignaremos a cada jugador, el nombre del participante, el género de este el cual tendrá un check para ver se es masculiino o femenino, la fecha de nacimiento del jugador y el id del país al que pertenece.
+* Id_jugador
+
+
+* Nombre
+
+El nombre del participante del torneo 
+
+* Apellidos
+
+
+* Id_género
+
+
+* Fecha_nacimiento
+
+
+* Id_país  
+
 
 2. PARTIDOS
 
-* 
-
-3. SETS
+* Id_partido
 
 
-
-4. RONDAS
-
+* Id_jugador1
 
 
-7. PAISES
+* Id_jugador2
+
+
+* Nº_sección
+
+* Nº_ronda
+
+* Fecha
+
+3. PUNTUACIONES
+
+* Id_partido
+
+* Nº_set
+
+* Punt_jugador1
+
+* Punt_jugador2
+
+4. PAISES
+
+* Id_país
+
+* Nombre 
+
+5. GÉNEROS
+
+* Id_género
+
+* Nombre 
 
 
 * Como se relacionan 
+
+JUGADORES
+
+
+PARTIDOS
+
+PUNTUACIONES
 
 ## CONEXIÓN
 
@@ -249,8 +295,24 @@ Y contendrá los siguientes datos.
 
 * Dificultades 
 
+1. 
+
+2. 
+
 * Problemas 
+
+1. 
+
+2. 
 
 * Cosas positivas 
 
+1. 
+
+2. 
+
 * Reflexiones 
+
+1. 
+
+2. 
