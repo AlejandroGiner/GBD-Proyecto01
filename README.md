@@ -1,8 +1,8 @@
 # GBD-Proyecto01
-# PROYECTO GBD - GRUPO 4 - Alejandro Ginés, Daniel Trapote y Simon Villarino
-# ÍNTRODUCCIÓN
-Este readme contiene la memoria sobre el trabajo asignado.
-Nos tocó ser el grupo 7 y hacer una base de datos que contenga la información sobre el último Torneo de Roland Garrós y sus participantes.
+# PROYECTO GBD - GRUPO 4 - Alejandro Giner, Daniel Trapote y Simon Villarino
+# INTRODUCCIÓN
+Este _readme_ contiene la memoria sobre el trabajo asignado.
+Nos tocó ser el grupo 4 y hacer una base de datos que contenga la información sobre el último Torneo de Roland Garrós y sus participantes.
 
 Se ha divido el trabajo de la siguiente forma:
 
@@ -172,131 +172,46 @@ Al root le hemos puesto durante la instalación la contraseña de 12345a para te
 
 ## DISEÑO
 
-* Tablas 
-
-Se decidió crear cinco tablas para contener la información del torneo.
+Hemos decidido crear cinco tablas para contener la información del torneo.
 
 ![](CAPS/TABLAS/tablatenis_Mesa%20de%20trabajo%201-03.jpg)
 
-Las cuales son :
-
-1. JUGADORES
-2. PARTIDOS
-3. PUNTUACIONES
-4. PAISES
-5. GÉNEROS
-
-    
-* Que se guarda en cada una 
-
 1. JUGADORES
 
-* Id_jugador
-
-Es un identificador que se asigna al jugador para relacionar los datos, será la clave primaria porque es un id que se asocia a un solo jugador y no se repite.
-
-* Nombre
-
-El nombre del participante del torneo.
-
-* Apellidos
-
-Es el apellido del jugador.
-
-* Id_género
-
-Es una clave que viene de la tabla géneros en la cual relacionamos al participante con uno de los géreros, para saber a que parte del torneo participa.
-
-* Fecha_nacimiento
-
-La fecha de nacimiento del participante.
-
-* Id_país  
-
-Es una clave que viene de la tabla países y nos indica el país del participante.
+Representa los participantes del torneo. Tienen __nombre__, __apellido__, __género__, __país__, y __fecha de nacimiento__.
+El género y el país se representan mediante "foreign keys", que apuntan a sus respectivas tablas.
 
 2. PARTIDOS
 
-* Id_partido
+Representa los partidos que componen el torneo. Cada partido está caracterizado por __dos jugadores__ participantes
+(dos foreign keys apuntando a la tabla de jugadores), así como la __sección__ a la que pertenecen, y dentro de la sección,
+la __ronda__ a la que pertenecen. También se almacena la __fecha__ en la que se juega el partido.
 
-Asignamos un identificador al partido puesto que se juegan un total de 96 partidos y cada partido es único, por lo que le designamos como clave principal 
+Se han añadido __CHECKs__ en el número de ronda (que va de 0 a 4 en secciones normales, y de 0 a 3 en la sección final)
+ y en el número de sección (que va de 1 a 8 más la sección de las finales, para la que hemos decidido usar el número 0).
 
-* Id_jugador1 y Id_jugador2
-
-En cada partido tendremos solo dos jugadores y para relacionar los sets le asignamos a cada uno una de estas id para diferenciarlos.
-
-* Nº_sección
-
-Es el número de la sección o momento del torneo, hay 9 secciones que van desde la 1 hasta la 8 y la sección 0 es la final.
-
-* Nº_ronda
-
-Cada sección se divide en rondas, de las secciones de la 1 a la 8 se dividen en cuatro rondas, pero en la sección 0 se divide en tres secciones siendo cuartos, semifinales y finales.
-
-* Fecha
-
-Es la fecha en la que se juega el partido.
+También cabe destacar la __restricción de unicidad__ que agrupa los dos jugadores, el número de sección y el de ronda, que
+sirve para asegurar que no se pueda insertar información errónea al repetir partidos en la misma ronda.
 
 3. PUNTUACIONES
 
-* Id_partido
+Representa los sets de cada partido. Un partido de tenis está compuesto por varios sets, hasta un máximo de 5 sets por partido.
+Por ello se tiene el __número de set__, que junto con el __partido__ (foreign key) forma la clave primaria;
+y también las __puntuaciones__ de cada jugador.
 
-Es el número de partido del 1 a 96.
-
-* Nº_set
-
-Hace referencia al set que se está jugando, este puede ir desde 1 a 5
-
-* Punt_jugador1 y Punt_jugador2
-
-Dividimos los dos jugadores del set para almacenar cual es la puntuación de este set y relacionarla con el nº del set.
+Hay __CHECKs__ para el número de set, ya que solamente existen sets del 1 al 5, y para las puntuaciones, para que no tomen valores negativos.
 
 4. PAISES
 
-* Id_país
-
-Almcenará un número por país que no se repite.
-
-* Nombre 
-
-Es el nombre del país.
+Representa los países a los que pertenecen los jugadores. Es una tabla muy simple, consistente solo de un __número de identificación__
+y de un __nombre de país__.
 
 5. GÉNEROS
 
-* Id_género
+Representa los géneros de los jugadores, puesto que hay dos modalidades dependiendo del género. Igual que los países, esta tabla
+consiste solamente de un __ID__ y un __nombre__.
 
-Se asigna un identificador al género para relacionar este con otras tablas. 
 
-* Nombre 
-
-Almacena el nombre del gérnero.
-
-* Como se relacionan 
-
-JUGADORES
-
-Es la tabla principal con la que vamos a relacionar el resto de tablas.
-Ya que se relacionará con géneros, países y partidos.
-
-Las relaciones que nos quedan son:
-
-Jugadores n-1 Géneros
-Ya que cada género puede tener o 1 o varios jugadores.
-
-Jugadores n-1 Países
-Cada País puede relacionarse con varios jugadores.
-
-Jugadores 1-n Partidos
-Puesto que cada jugador puede jugar de uno a varios partidos por torneo.
-
-PARTIDOS 
-
-Se relacionará 1-n con las puntuaciones ya que por cada partido hay unas puntuaciones distintas.
-
-Y por último 
-
-PUNTUACIONES
-Solo se realaciona con la tabla de partidos d
 
 ## CONEXIÓN
 
