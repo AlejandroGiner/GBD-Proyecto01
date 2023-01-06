@@ -38,9 +38,8 @@ CREATE TABLE partidos(
 );
 
 CREATE TABLE puntuaciones(
-    id_partido      NUMERIC(4)      PRIMARY KEY,
-    n_set           NUMERIC(1)      CHECK(n_set BETWEEN 1 AND 5)
-                                    PRIMARY KEY,
+    id_partido      NUMERIC(4),
+    n_set           NUMERIC(1)      CHECK(n_set BETWEEN 1 AND 5),
     punt_jugador1   NUMERIC(4)      CHECK(punt_jugador1 > 0),
     punt_jugador2   NUMERIC(4)      CHECK(punt_jugador2 > 0),
     CONSTRAINT puntuaciones_fk1 FOREIGN KEY (id_partido) REFERENCES partidos(id_partido)
