@@ -296,7 +296,7 @@ Se relacionará 1-n con las puntuaciones ya que por cada partido hay unas puntua
 Y por último 
 
 PUNTUACIONES
-Solo se realaciona con la tabla de partidos d
+Solo se realaciona con la tabla de partidos.
 
 ## CONEXIÓN
 
