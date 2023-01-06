@@ -252,11 +252,14 @@ Y contendrá los siguientes datos.
 
 ## CONCLUSIONES
 
-* Dificultades 
 
-1. 
 
-2. 
+* Dificultades
+
+Al empezar con el diseño de la base de datos, incluimos varias tablas que luego han sido eliminadas:
+había una tabla de rondas, así como una de secciones; también una de torneos para dividir las diferentes modalidades (masculina y femenina).
+Las hemos quitado porque hemos considerado que realmente no aportaban nada, y podían representarse como atributos en otras tablas 
+(rondas y secciones en partidos, y torneos/modalidades mirando el género de los participantes).
 
 * Problemas 
 
