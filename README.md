@@ -169,13 +169,42 @@ Al root le hemos puesto durante la instalación la contraseña de 12345a para te
 
 ![](CAPS/USUARIOS_Y_ROOT/19.png)
 
-(METER IMÁGENES) 
 
 ## DISEÑO
 
 * Tablas 
 
+Se decidió crear cinco tablas para contener la información del torneo.
+Las cuales son :
+1. JUGADORES
+2. PARTIDOS
+3. SETS
+4. RONDAS
+5. SECCIONES
+6. TORNEOS
+7. PAISES
+
+
 * Que se guarda en cada una 
+
+1. JUGADORES
+
+En jugadores almacenaremos como clave pirmaria un número fijo que asignaremos a cada jugador, el nombre del participante, el género de este el cual tendrá un check para ver se es masculiino o femenino, la fecha de nacimiento del jugador y el id del país al que pertenece.
+
+2. PARTIDOS
+
+* 
+
+3. SETS
+
+
+
+4. RONDAS
+
+
+
+7. PAISES
+
 
 * Como se relacionan 
 
