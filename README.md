@@ -271,12 +271,13 @@ Almacena el nombre del gérnero.
 
 JUGADORES
 
-
+Es la tabla principal con la que vamos a relacionar el resto de tablas.
 
 PARTIDOS
 
 
 PUNTUACIONES
+Solo se realaciona con la tabla de jugadores.
 
 ## CONEXIÓN
 
