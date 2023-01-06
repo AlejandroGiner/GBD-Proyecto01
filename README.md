@@ -175,8 +175,11 @@ Al root le hemos puesto durante la instalación la contraseña de 12345a para te
 * Tablas 
 
 Se decidió crear cinco tablas para contener la información del torneo.
+
 ![](CAPS/TABLAS/tablatenis_Mesa%20de%20trabajo%201-03.jpg)
+
 Las cuales son :
+
 1. JUGADORES
 2. PARTIDOS
 3. PUNTUACIONES
@@ -273,12 +276,27 @@ Almacena el nombre del gérnero.
 JUGADORES
 
 Es la tabla principal con la que vamos a relacionar el resto de tablas.
+Ya que se relacionará con géneros, países y partidos.
 
-PARTIDOS
+Las relaciones que nos quedan son:
 
+Jugadores n-1 Géneros
+Ya que cada género puede tener o 1 o varios jugadores.
+
+Jugadores n-1 Países
+Cada País puede relacionarse con varios jugadores.
+
+Jugadores 1-n Partidos
+Puesto que cada jugador puede jugar de uno a varios partidos por torneo.
+
+PARTIDOS 
+
+Se relacionará 1-n con las puntuaciones ya que por cada partido hay unas puntuaciones distintas.
+
+Y por último 
 
 PUNTUACIONES
-Solo se realaciona con la tabla de jugadores.
+Solo se realaciona con la tabla de partidos d
 
 ## CONEXIÓN
 
