@@ -261,6 +261,10 @@ había una tabla de rondas, así como una de secciones; también una de torneos 
 Las hemos quitado porque hemos considerado que realmente no aportaban nada, y podían representarse como atributos en otras tablas 
 (rondas y secciones en partidos, y torneos/modalidades mirando el género de los participantes).
 
+
+Respecto al trabajo previo de investigación acerca del tenis, nos hemos dado cuenta muy rápidamente
+de que lo más difícil es trasladar una situación real a un esquema de base de datos; esta parte es la que más tiempo nos ha llevado
+con diferencia.
 * Problemas 
 
 1. 
