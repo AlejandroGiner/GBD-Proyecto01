@@ -183,6 +183,7 @@ Las cuales son :
 4. PAISES
 5. GÉNEROS
 
+    
 * Que se guarda en cada una 
 
 1. JUGADORES
