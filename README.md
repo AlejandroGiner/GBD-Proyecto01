@@ -252,33 +252,12 @@ Y contendrá los siguientes datos.
 
 ## CONCLUSIONES
 
-
-
-* Dificultades
-
 Al empezar con el diseño de la base de datos, incluimos varias tablas que luego han sido eliminadas:
 había una tabla de rondas, así como una de secciones; también una de torneos para dividir las diferentes modalidades (masculina y femenina).
-Las hemos quitado porque hemos considerado que realmente no aportaban nada, y podían representarse como atributos en otras tablas 
+Las hemos quitado porque hemos considerado que realmente no aportaban nada al no tener atributos propios, y podían representarse como atributos en otras tablas 
 (rondas y secciones en partidos, y torneos/modalidades mirando el género de los participantes).
 
 
 Respecto al trabajo previo de investigación acerca del tenis, nos hemos dado cuenta muy rápidamente
-de que lo más difícil es trasladar una situación real a un esquema de base de datos; esta parte es la que más tiempo nos ha llevado
+de que lo más difícil de las bases de datos es trasladar una situación real a un esquema de base de datos; esta parte es la que más tiempo nos ha llevado
 con diferencia.
-* Problemas 
-
-1. 
-
-2. 
-
-* Cosas positivas 
-
-1. 
-
-2. 
-
-* Reflexiones 
-
-1. 
-
-2. 
