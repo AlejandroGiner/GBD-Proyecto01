@@ -41,5 +41,6 @@ CREATE TABLE puntuaciones(
     n_set           NUMERIC(1)      CHECK ( n_set BETWEEN 1 AND 5 ),
     punt_jugador1   NUMERIC(1)      NOT NULL CHECK ( punt_jugador1 >= 0),
     punt_jugador2   NUMERIC(1)      NOT NULL CHECK ( punt_jugador2 >= 0),
-    CONSTRAINT sets_fk1 FOREIGN KEY (id_partido) REFERENCES partidos(id_partido)
+    CONSTRAINT sets_fk1 FOREIGN KEY (id_partido) REFERENCES partidos(id_partido),
+    PRIMARY KEY (id_partido,n_set)
 );
