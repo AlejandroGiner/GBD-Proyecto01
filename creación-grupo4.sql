@@ -15,7 +15,7 @@ CREATE TABLE jugadores(
     id_jugador      NUMERIC(4)      PRIMARY KEY,
     nombre          VARCHAR(50)     NOT NULL,
     apellido        VARCHAR(50)     NOT NULL,
-    id_genero       NUMERIC(2),
+    id_genero       NUMERIC(2),<
     fecha_nacimiento DATE           NOT NULL,
     id_pais         NUMERIC(3),
     CONSTRAINT jugadores_fk1 FOREIGN KEY (id_genero) REFERENCES generos(id_genero),
@@ -38,8 +38,8 @@ CREATE TABLE partidos(
 );
 
 CREATE TABLE puntuaciones(
-    id_partido      NUMERIC(4),
-    n_set           NUMERIC(1)      CHECK(n_set ENTRE 1 Y 5)
+    id_partido      NUMERIC(4)      PRIMARY KEY,
+    n_set           NUMERIC(1)      CHECK(n_set BETWEEN 1 AND 5)
                                     PRIMARY KEY,
     punt_jugador1   NUMERIC(4)      CHECK(punt_jugador1 > 0),
     punt_jugador2   NUMERIC(4)      CHECK(punt_jugador2 > 0),
