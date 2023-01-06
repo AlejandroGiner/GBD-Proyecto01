@@ -261,7 +261,7 @@ Es el nombre del país.
 
 * Id_género
 
-Se asigna un identificador al género para relacionar este con otras tablas.
+Se asigna un identificador al género para relacionar este con otras tablas. 
 
 * Nombre 
 
